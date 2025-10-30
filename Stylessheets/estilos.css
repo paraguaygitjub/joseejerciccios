@@ -1,0 +1,188 @@
+*{
+    margin: auto;
+    padding: auto;
+    line-height: 2;
+    box-sizing: border-box
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    line-height: 1.6;
+    padding: 20px;
+}
+.main{
+    background-color: rgb(14, 0, 36);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-left: 5px solid #da83e6;
+    color: white;
+}
+.main h1{
+    color: #da83e6;
+}
+.main h2{
+    color: #da83e6;
+}
+h1, h2, h3{
+    color: #da83e6;
+    margin-left: 15px;
+}
+.ejercicios {
+    background-color: rgb(14, 0, 36);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    margin-top: 20px;
+    border-left: 5px solid #da83e6;
+    color: white;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.alimentos{
+    background-color: rgb(14, 0, 36);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-left: 5px solid #da83e6;
+    color: white;
+    display: inline-block;
+}
+  
+.gris{
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: gray;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 20px 0;
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+ul nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+ul nav li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+nav li:hover{
+    text-decoration: underline;
+    background-color: #666666;
+    color: white;
+    transition: all 0.3s ease;
+}
+.active{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000000;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.active nav{
+    background-color: #757575;
+}
+ul nav li a.active,
+ul nav li a.active:visited {
+  background-color: #757575;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+.ejercicios img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    object-fit: cover;
+    display: inline-block;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+ul, ol{
+    margin-left: 20px;
+}
+.alimentos img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    object-fit: cover;
+    display: inline-block;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.consejos{
+    background-color: rgb(14, 0, 36);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    margin-top: 20px;
+    border-left: 5px solid #9C27B0;
+    color: white;
+}
+.nutricion{
+    background-color: rgb(14, 0, 36);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-left: 5px solid #9C27B0;
+    color: white;
+}
+.ejercicios_info {
+    background-color: rgb(14, 0, 36);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    margin-top: 20px;
+    border-left: 5px solid #da83e6;
+    color: white;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.aportes{
+    background-color: rgb(14, 0, 36);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    margin-top: 20px;
+    border-left: 5px solid #da83e6;
+    color: white;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.consejos_info{
+    background-color: rgb(14, 0, 36);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    margin-top: 20px;
+    border-left: 5px solid #da83e6;
+    color: white;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+br{
+    margin-bottom: 20px;
+    inline-size: 1.5;
+}
